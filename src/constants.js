@@ -10,7 +10,7 @@ module.exports.CSS_SELECTOR__SHOW_RESULTS_ALL = CSS_SELECTOR__SHOW_RESULTS_ALL
 
 // const CSS_SELECTOR__SHOW_RESULTS_ITEM = '.gsc-results .gsc-thumbnail-inside a.gs-title' // developers.google.com
 // const CSS_SELECTOR__SHOW_RESULTS_ITEM = 'h3.r > a' // google.com
-const CSS_SELECTOR__SHOW_RESULTS_ITEM = 'h3 > a#video-title' // youtube.com
+const CSS_SELECTOR__SHOW_RESULTS_ITEM = 'h3.ytd-video-renderer > a#video-title' // youtube.com
 module.exports.CSS_SELECTOR__SHOW_RESULTS_ITEM = CSS_SELECTOR__SHOW_RESULTS_ITEM
 
 const TEXT_DELIMITER__GOOGLE_ANCHOR = '|' // developers.google.com, google.com, youtube.com

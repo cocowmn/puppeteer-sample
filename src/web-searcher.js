@@ -37,8 +37,6 @@ class WebSearcher {
     
     const links = await this.extractLinksThatMatch( CSS_SELECTOR__SHOW_RESULTS_ITEM )
     this.logLinksToPage( links )
-
-    return links
   }
 
   async loadWebpage( websiteURI ) {
